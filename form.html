@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+    <!-- this is my header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="audio-video.html" target="_blank">Media</a></li>
+                <li><a href="semantic.html" target="_blank">Semantic</a></li>
+                <li><a href="table.html" target="_blank">Table</a></li>
+                <li><a href="form.html" target="_blank">Form</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to my Form Page</h1>
+    </header>
+    <h1>Jamaler Ma Special TSC Pitha Express</h1>
+    <form action="">
+        <p>Name:<input type="text" name="name" id="name" placeholder="Enter Your Name"></p>
+        <p>Email:<input type="text" name="email" id="email" placeholder="Enter Your Email"></p>
+        <fieldset>
+            <legend>Select Your Pitha</legend>
+            <p>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="chitoy">
+                </label>
+                Chitoy
+            </p>
+            <p>
+                <label for="bhapa">
+                    <input type="radio" name="pitha" id="bhapa">
+                </label>
+                Bhapa Pitha
+            </p>
+            <p>
+                <label for="dudhpuli">
+                    <input type="radio" name="pitha" id="dudhpuli">
+                </label>
+                Dudhpuli Pitha
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select Your Bhorta</legend>
+            <p>
+                <label for="shorisha">
+                    <input type="checkbox" name="bhorta" id="shorisha">
+                </label>
+                Shorisha Bhorta
+            </p>
+            <p>
+                <label for="shutki">
+                    <input type="checkbox" name="bhorta" id="shutki">
+                </label>
+                Shutki Bhorta
+            </p>
+            <p>
+                <label for="morich">
+                    <input type="checkbox" name="bhorta" id="morich">
+                </label>
+                Morich Bhorta
+            </p>
+        </fieldset>
+        <p>
+            Special Instruction: <br>
+            <textarea name="instruction" id="instruction" cols="30" rows="10"
+                placeholder="Enter your instruction here"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
